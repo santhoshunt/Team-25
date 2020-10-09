@@ -7,7 +7,7 @@ description about the movie.
 
 # Features:
 
-## ~ Search movies by its name or year.
+## ~ Search movies by its name 
 ## ~ Recommends based on IMDB ratings.
 ## ~ Stay up to date with entertainments.
 
@@ -20,3 +20,6 @@ environment for searching movies.
 
 ## Screenshot of home page
 ![22a37a2d-37e4-45b1-8224-31ee40125746](https://user-images.githubusercontent.com/50547679/95607037-cb69e480-0a78-11eb-9411-1932850240a5.jpg)
+
+## Screenshot of Shot description
+![64a80f03-b4b7-47cc-aae3-67bb974f7017](https://user-images.githubusercontent.com/50547679/95607207-09670880-0a79-11eb-816b-36c785204980.jpg)
