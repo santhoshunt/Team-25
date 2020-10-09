@@ -4,6 +4,8 @@ It is the fastest and easiest way to find and discover movies and its trailers. 
 enables to find detailed information about any movie along with its ratings and a short
 description about the movie. 
 
+![c537c35e-d97d-47c7-978b-a3aab04aa95a (1)](https://user-images.githubusercontent.com/50547679/95607676-b772b280-0a79-11eb-910b-e1fc8f7d042e.jpg)
+
 
 # Features:
 
@@ -23,5 +25,3 @@ environment for searching movies.
 ## Screenshot of home page
 ![22a37a2d-37e4-45b1-8224-31ee40125746](https://user-images.githubusercontent.com/50547679/95607037-cb69e480-0a78-11eb-9411-1932850240a5.jpg)
 
-## Screenshot of Shot description
-![64a80f03-b4b7-47cc-aae3-67bb974f7017](https://user-images.githubusercontent.com/50547679/95607207-09670880-0a79-11eb-816b-36c785204980.jpg)
