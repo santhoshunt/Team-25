@@ -6,10 +6,10 @@ class Details extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     data = ModalRoute.of(context).settings.arguments;
-    print(data);
     return Scaffold(
       appBar: AppBar(
-        title: Text('Detailed view'),
+        backgroundColor: Colors.green,
+        title: Text(data['name']),
       ),
       body: SingleChildScrollView(
         child: Card(
@@ -98,14 +98,14 @@ class Details extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height :10),
+                SizedBox(height: 10),
                 Text(
                   data['desc'],
                   style: TextStyle(
                     fontSize: 20,
                   ),
                 ),
-                SizedBox(height :10),
+                SizedBox(height: 10),
               ],
             ),
           ),

@@ -1,17 +1,19 @@
 import "package:flutter/material.dart";
-import 'details.dart';
 
 class MovieCard extends StatelessWidget {
-  var url;
-  var name;
-  MovieCard({this.url, this.name});
+  final url;
+  final name;
+  final duration;
+  final rating;
+  final desc;
+
+  MovieCard({this.url, this.name, this.duration, this.rating, this.desc});
 
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.grey[700],
-      elevation: 40,
-      shadowColor: Colors.grey[400],
+      elevation: 130,
+      shadowColor: Colors.lightGreen[500],
       child: Column(
         children: [
           Image(
@@ -23,24 +25,32 @@ class MovieCard extends StatelessWidget {
           Row(
             children: [
               Padding(
-                padding: const EdgeInsets.all(3.0),
+                padding: EdgeInsets.all(3.0),
                 child: Text(
-                  name,
+                  name[0].toUpperCase() + name.substring(1),
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                     fontStyle: FontStyle.italic,
-                    color: Colors.blue,
+                    shadows: [
+                      Shadow(
+                        offset: Offset(2, 2),
+                        blurRadius: 2,
+                        color: Colors.lightGreen[100],
+                      ),
+                    ],
+                    color: Colors.lightGreen,
                   ),
                 ),
               ),
               FlatButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/details',arguments: {
-                    'url':url,
-                    'name':name,
-                    'rating':10,
-                    'duration':120,
+                  Navigator.pushNamed(context, '/details', arguments: {
+                    'url': url,
+                    'name': name,
+                    'rating': 10,
+                    'duration': 120,
+                    'desc': 'This is the movie description',
                   });
                 },
                 child: Text(

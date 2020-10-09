@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
 import 'details.dart';
+import 'viewAll.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,11 +14,13 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   @override
+
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/': (context) => Home(),
-        '/details': (context) => Details(),
+        '/': (context)=> Home(),
+        '/details': (context)=> Details(),
+        '/viewall': (context)=> ViewAll(),
       },
     );
   }
