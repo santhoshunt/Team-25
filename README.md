@@ -9,8 +9,10 @@ description about the movie.
 
 ## ~ Search movies by its name 
 ## ~ Recommends based on IMDB ratings.
+
 ## ~ Stay up to date with entertainments.
 
+![baad58cf-b918-4bf2-b9d3-4fdf722da4c7](https://user-images.githubusercontent.com/50547679/95607517-77133480-0a79-11eb-9140-6e3d8f33167b.jpg)
 
 Filmflickz is built using flutter. It will recommend movies in accordance with IMDB
 ratings .You can search the movies by its name. It provides a short description of that
