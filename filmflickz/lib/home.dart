@@ -12,11 +12,11 @@ class _HomeState extends State<Home> {
   final searchCon = TextEditingController();
   Icon cusIcon = Icon(Icons.search);
   Widget bar = Text("MOVIES");
-  List add(l1, l2, l3, l4, l5) {
+  List add(l1, l2, l3, l4, l5, l6) {
     List temp = [];
     for (int i = 0; i < l1.length; i++) {
       if (l1[i].toLowerCase().contains(search)) {
-        temp.add([l1[i], l2[i], l3[i], l4[i], l5[i]]);
+        temp.add([l1[i], l2[i], l3[i], l4[i], l5[i], l6[i]]);
       }
     }
     return temp;
@@ -24,20 +24,21 @@ class _HomeState extends State<Home> {
 
   void searchFun() {
     List total = [];
-    total +=
-        add(Data.name1, Data.url1, Data.desc1, Data.duration1, Data.rating1);
-    total +=
-        add(Data.name2, Data.url2, Data.desc2, Data.duration2, Data.rating2);
-    total +=
-        add(Data.name3, Data.url3, Data.desc3, Data.duration3, Data.rating3);
+    total += add(Data.name1, Data.url1, Data.desc1, Data.duration1,
+        Data.rating1, Data.trailer1);
+    total += add(Data.name2, Data.url2, Data.desc2, Data.duration2,
+        Data.rating2, Data.trailer2);
+    total += add(Data.name3, Data.url3, Data.desc3, Data.duration3,
+        Data.rating3, Data.trailer3);
     if (total != []) {
-      List result = [[], [], [], [], []];
+      List result = [[], [], [], [], [], []];
       for (int i = 0; i < total.length; i++) {
         result[0].add(total[i][0]);
         result[1].add(total[i][1]);
         result[2].add(total[i][2]);
         result[3].add(total[i][3]);
         result[4].add(total[i][4]);
+        result[5].add(total[i][5]);
       }
       Navigator.pushNamed(
         context,
@@ -49,6 +50,7 @@ class _HomeState extends State<Home> {
           'duration': result[3],
           'desc': result[2],
           'title': "Results for \"$search\"",
+          'trailer': result[5],
         },
       );
     } else {}
@@ -88,7 +90,7 @@ class _HomeState extends State<Home> {
       body: Container(
         child: SingleChildScrollView(
           child: Column(
-            children: [ 
+            children: [
               Padding(
                 padding: const EdgeInsets.all(3.0),
                 child: Row(
@@ -106,12 +108,14 @@ class _HomeState extends State<Home> {
                     RaisedButton(
                       color: Colors.green[200],
                       onPressed: () {
+                        print(Data.trailer1);
                         Navigator.pushNamed(context, '/viewall', arguments: {
                           'url': Data.url1,
                           'name': Data.name1,
                           'rating': Data.rating1,
                           'duration': Data.duration1,
                           'desc': Data.desc1,
+                          'trailer': Data.trailer1,
                           'title': "BEST OF ALL TIME",
                         });
                       },
@@ -139,6 +143,7 @@ class _HomeState extends State<Home> {
                       duration: Data.duration1[index],
                       rating: Data.rating1[index],
                       desc: Data.desc1[index],
+                      trailer: Data.trailer1[index],
                     );
                   },
                 ),
@@ -172,6 +177,7 @@ class _HomeState extends State<Home> {
                             'rating': Data.rating2,
                             'duration': Data.duration2,
                             'desc': Data.desc2,
+                            'trailer': Data.trailer2,
                             'title': "BEST OF 2019",
                           },
                         );
@@ -200,6 +206,7 @@ class _HomeState extends State<Home> {
                         duration: Data.duration2[index],
                         rating: Data.rating2[index],
                         desc: Data.desc2[index],
+                        trailer: Data.trailer2[index],
                       );
                     }),
               ),
@@ -232,6 +239,7 @@ class _HomeState extends State<Home> {
                             'rating': Data.rating3,
                             'duration': Data.duration3,
                             'desc': Data.desc3,
+                            'trailer': Data.trailer3,
                             'title': "BEST OF 2020",
                           },
                         );
@@ -260,6 +268,7 @@ class _HomeState extends State<Home> {
                         duration: Data.duration3[index],
                         rating: Data.rating3[index],
                         desc: Data.desc3[index],
+                        trailer: Data.trailer3[index],
                       );
                     }),
               ),

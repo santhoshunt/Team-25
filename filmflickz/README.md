@@ -1,15 +1,15 @@
-## Filmflickz 
+# Filmflickz 
 
 It is the fastest and easiest way to find and discover movies and its trailers. It
 enables to find detailed information about any movie along with its ratings and a short
 description about the movie. 
 
 
-## Features:
+# Features:
 
-# ~ Search movies by its name or year.
-# ~ Recommends based on IMDB ratings.
-# ~ Stay up to date with entertainments.
+## ~ Search movies by its name or year.
+## ~ Recommends based on IMDB ratings.
+## ~ Stay up to date with entertainments.
 
 
 Filmflickz is built using flutter. It will recommend movies in accordance with IMDB

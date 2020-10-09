@@ -6,12 +6,14 @@ class MovieCard1 extends StatelessWidget {
   final duration;
   final rating;
   final desc;
+  final trailer;
   MovieCard1({
     this.url,
     this.name,
     this.duration,
     this.rating,
     this.desc,
+    this.trailer,
   });
 
   @override
@@ -69,6 +71,7 @@ class MovieCard1 extends StatelessWidget {
                     'rating': rating,
                     'duration': duration,
                     'desc': desc,
+                    'trailer': trailer,
                   },
                 );
               },

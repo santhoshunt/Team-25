@@ -91,9 +91,28 @@ class Data {
     "2h 15m"
   ];
 
+  static var trailer1 = [
+    "https://www.youtube.com/watch?v=2R41d6Za-yM",
+    "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "https://www.youtube.com/watch?v=V75dMMIW2B4",
+    "https://www.youtube.com/watch?v=hEJnMQG9ev8",
+    "https://www.youtube.com/watch?v=m6Q7KnXpNOg",
+    "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+    "https://www.youtube.com/watch?v=5PSNL1qE6VY",
+    "https://www.youtube.com/watch?v=8ugaeA-nMTc",
+    "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+    "https://www.youtube.com/watch?v=mfmrPu43DF8",
+    "https://www.youtube.com/watch?v=7SlILk2WMTI",
+    "https://www.youtube.com/watch?v=AwwbhhjQ9Xk",
+    "https://www.youtube.com/watch?v=7H9AaiBLHCo",
+    "https://www.youtube.com/watch?v=zAGVQLHvwOY",
+    "https://www.youtube.com/watch?v=xjDjIWPwcPU",
+  ];
+
   //details of best of 2019 -> url2,name2,...,desc2
   static var url2 = [
-    "https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersendgame_lob_mas_mob_01.jpg",
+    "https://cdn.flickeringmyth.com/wp-content/uploads/2018/02/a-quiet-place-600x938.jpg",
     "https://www.shropshirehillsdiscoverycentre.co.uk/wp-content/uploads/2019/08/Toy-Story-4-Square.jpg",
     "https://tse2.mm.bing.net/th?id=OIP.zq6UQ9I1ukBGL8LkosRg4gHaK9&pid=Api&P=0&w=300&h=300",
     "https://tse4.mm.bing.net/th?id=OIP.efcHYyEsGDCH-WJ06b1NWwHaJ_&pid=Api&P=0&w=300&h=300",
@@ -111,7 +130,7 @@ class Data {
     "https://h-m-entertainment.com/wp-content/uploads/2020/01/terminator-dark-fate-2019-poster.jpg"
   ];
   static var name2 = [
-    "Avengers End Game",
+    "The Quiet place",
     "Toy Story 4",
     "1917",
     "The Irishman",
@@ -129,6 +148,7 @@ class Data {
     "Terminator: Dark Fate"
   ];
   static var desc2 = [
+    "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing. Two parents do what it takes to keep their children safe in a world full of creatures hunting every sound they can hear.",
     "The grave course of events set in motion by Thanos, that wiped out half the universe and fractured the Avengers ranks, compels the remaining Avengers to take one final stand in Marvel Studios grand conclusion to twenty-two films.",
     "When a new toy called -Forky joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy. Woody, Buzz Lightyear and the rest of the gang embark on a road trip with Bonnie and a new toy named Forky.",
     "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
@@ -147,7 +167,7 @@ class Data {
     "In Mexico City, a newly modified liquid Terminator -- the Rev-9 model -- arrives from the future to kill a young factory worker named Dani Ramos. Also sent back in time is Grace, a hybrid cyborg human who must protect Ramos from the seemingly indestructible robotic assassin. But the two women soon find some much-needed help from a pair of unexpected allies -- seasoned warrior Sarah Connor and the T-800 Terminator."
   ];
   static var rating2 = [
-    "8.4",
+    "7.5",
     "7.8",
     "8.3",
     "7.9",
@@ -165,7 +185,7 @@ class Data {
     "6.2"
   ];
   static var duration2 = [
-    "3h 2m",
+    "1h 30m",
     "1h 40m",
     "1h 59m",
     "3h 30m",
@@ -181,6 +201,23 @@ class Data {
     "1h 40m",
     "2h 10m",
     "2h 8m"
+  ];
+  static var trailer2 = [
+    'https://www.youtube.com/watch?v=wmiIUN-7qhE',
+    'https://www.youtube.com/watch?v=gZjQROMAh_s',
+    'https://www.youtube.com/watch?v=RS3aHkkfuEI',
+    'https://www.youtube.com/watch?v=ELeMaP8EPAA',
+    'https://www.youtube.com/watch?v=ELeMaP8EPAA',
+    'https://www.youtube.com/watch?v=s9APLXM9Ei8',
+    'https://www.youtube.com/watch?v=I3h9Z89U9ZA',
+    'https://www.youtube.com/watch?v=zAGVQLHvwOY',
+    'https://www.youtube.com/watch?v=ziMUD0_TTg0',
+    'https://www.youtube.com/watch?v=8XgMvMpvCFI',
+    'https://www.youtube.com/watch?v=isOGD_7hNIY',
+    'https://www.youtube.com/watch?v=3Co8Z8BQgWc',
+    'https://www.youtube.com/watch?v=taE3PwurhYM',
+    'https://www.youtube.com/watch?v=vsvBqtg2RM0',
+    'https://www.youtube.com/watch?v=aETNYyrqNYE',
   ];
 
   //details of best of 2020 -> url3,name3,...,desc3
@@ -273,5 +310,24 @@ class Data {
     "2h 2min",
     "1h 33min",
     "1h 40m"
+  ];
+
+  static var trailer3 = [
+    "https://www.youtube.com/watch?v=L6P3nI6VnlY",
+    "https://www.youtube.com/watch?v=a6O30nJ02PU",
+    "https://www.youtube.com/watch?v=O2NKzO-fxwQ",
+    "https://www.youtube.com/watch?v=WO_FJdiY9dA",
+    "https://www.youtube.com/watch?v=LdOM0x0XDMo",
+    "https://www.youtube.com/watch?v=x3UZ_2z9INI",
+    "https://www.youtube.com/watch?v=hej47fWFLQs",
+    "https://www.youtube.com/watch?v=DjOaTOFgVzg",
+    "https://www.youtube.com/watch?v=6-T5-Tohan0",
+    "https://www.youtube.com/watch?v=gn5QmllRCn4",
+    "https://www.youtube.com/watch?v=J43zOCT0Wy0",
+    "https://www.youtube.com/watch?v=xLXZl1JF85c",
+    "https://www.youtube.com/watch?v=de_NYbCoM2I",
+    "https://www.youtube.com/watch?v=862Pb9oDDAo",
+    "https://www.youtube.com/watch?v=uaaC57tcci0",
+    "https://www.youtube.com/watch?v=h1LG9So2ZBk",
   ];
 }

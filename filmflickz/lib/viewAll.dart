@@ -25,6 +25,7 @@ class _ViewAllState extends State<ViewAll> {
             desc: data['desc'][index],
             rating: data['rating'][index],
             duration: data['duration'][index],
+            trailer: data['trailer'][index],
           );
         }),
       ),

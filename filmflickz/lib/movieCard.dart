@@ -6,8 +6,15 @@ class MovieCard extends StatelessWidget {
   final duration;
   final rating;
   final desc;
+  final trailer;
 
-  MovieCard({this.url, this.name, this.duration, this.rating, this.desc});
+  MovieCard(
+      {this.url,
+      this.name,
+      this.duration,
+      this.rating,
+      this.desc,
+      this.trailer});
 
   @override
   Widget build(BuildContext context) {
@@ -64,6 +71,7 @@ class MovieCard extends StatelessWidget {
                     'rating': rating,
                     'duration': duration,
                     'desc': desc,
+                    'trailer': trailer,
                   });
                 },
                 child: Text(

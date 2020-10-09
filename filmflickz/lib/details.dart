@@ -1,7 +1,8 @@
 import "package:flutter/material.dart";
+import 'package:url_launcher/url_launcher.dart';
 
 class Details extends StatelessWidget {
-  Map data ;
+  Map data;
 
   @override
   Widget build(BuildContext context) {
@@ -119,11 +120,24 @@ class Details extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 10),
+                RaisedButton(
+                  color: Colors.lightGreen[300],
+                  onPressed: _launchURL,
+                  child: Text('Watch Trailer'),
+                ),
               ],
             ),
           ),
         ),
       ),
     );
+  }
+
+  _launchURL() async {
+    print(data['trailer']);
+    var url = data['trailer'];
+    if (await canLaunch(url)) {
+      await launch(url);
+    }
   }
 }
