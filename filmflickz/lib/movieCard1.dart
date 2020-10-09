@@ -23,10 +23,23 @@ class MovieCard1 extends StatelessWidget {
         children: [
           Expanded(
             flex: 3,
-            child: Image(
+            child: Image.network(
+              url,
+              loadingBuilder: (BuildContext context, Widget child,
+                  ImageChunkEvent loadingProgress) {
+                if (loadingProgress == null) return child;
+                return Center(
+                  child: CircularProgressIndicator(
+                    backgroundColor: Colors.green,
+                    value: loadingProgress.expectedTotalBytes != null
+                        ? loadingProgress.cumulativeBytesLoaded /
+                            loadingProgress.expectedTotalBytes
+                        : null,
+                  ),
+                );
+              },
               height: 100,
               width: 150,
-              image: NetworkImage(url),
               fit: BoxFit.contain,
             ),
           ),
@@ -53,9 +66,9 @@ class MovieCard1 extends StatelessWidget {
                   arguments: {
                     'url': url,
                     'name': name,
-                    'rating': 10,
-                    'duration': 120,
-                    'desc': 'This is the movie description',
+                    'rating': rating,
+                    'duration': duration,
+                    'desc': desc,
                   },
                 );
               },

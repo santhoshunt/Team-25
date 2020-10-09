@@ -12,19 +12,19 @@ class _ViewAllState extends State<ViewAll> {
   Widget build(BuildContext context) {
     data = ModalRoute.of(context).settings.arguments;
     return Scaffold(
-      appBar:AppBar(
+      appBar: AppBar(
         backgroundColor: Colors.green,
         title: Text(data['title']),
       ),
-          body: GridView.count(
+      body: GridView.count(
         crossAxisCount: 2,
         children: List.generate(data['url'].length, (index) {
           return MovieCard1(
             url: data['url'][index],
             name: data['name'][index],
-            desc: "data['desc']",
-            rating: "data['rating']",
-            duration: "data['duration']",
+            desc: data['desc'][index],
+            rating: data['rating'][index],
+            duration: data['duration'][index],
           );
         }),
       ),

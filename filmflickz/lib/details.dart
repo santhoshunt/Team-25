@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 
 class Details extends StatelessWidget {
-  Map data = {};
+  Map data ;
 
   @override
   Widget build(BuildContext context) {
@@ -19,9 +19,22 @@ class Details extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 SizedBox(height: 10),
-                Image(
+                Image.network(
+                  data['url'],
+                  loadingBuilder: (BuildContext context, Widget child,
+                      ImageChunkEvent loadingProgress) {
+                    if (loadingProgress == null) return child;
+                    return Center(
+                      child: CircularProgressIndicator(
+                        backgroundColor: Colors.green,
+                        value: loadingProgress.expectedTotalBytes != null
+                            ? loadingProgress.cumulativeBytesLoaded /
+                                loadingProgress.expectedTotalBytes
+                            : null,
+                      ),
+                    );
+                  },
                   fit: BoxFit.contain,
-                  image: NetworkImage(data['url']),
                 ),
                 SizedBox(height: 10),
                 Padding(
