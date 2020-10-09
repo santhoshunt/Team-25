@@ -130,7 +130,7 @@ class Data {
     "https://h-m-entertainment.com/wp-content/uploads/2020/01/terminator-dark-fate-2019-poster.jpg"
   ];
   static var name2 = [
-    "The Quiet place",
+    "A Quiet place",
     "Toy Story 4",
     "1917",
     "The Irishman",
@@ -203,6 +203,7 @@ class Data {
     "2h 8m"
   ];
   static var trailer2 = [
+    "https://www.youtube.com/watch?v=WR7cc5t7tv8",
     'https://www.youtube.com/watch?v=wmiIUN-7qhE',
     'https://www.youtube.com/watch?v=gZjQROMAh_s',
     'https://www.youtube.com/watch?v=RS3aHkkfuEI',
