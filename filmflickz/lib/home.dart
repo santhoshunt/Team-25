@@ -35,6 +35,7 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                     RaisedButton(
+                      color: Colors.green[200],
                       onPressed: () {
                         Navigator.pushNamed(context, '/viewall', arguments: {
                           'url': Data.url1,
@@ -85,6 +86,7 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                     RaisedButton(
+                      color: Colors.green[200],
                       onPressed: () {
                         Navigator.pushNamed(
                           context,
@@ -138,7 +140,8 @@ class _HomeState extends State<Home> {
                         color: Colors.black,
                       ),
                     ),
-                    FlatButton(
+                    RaisedButton(
+                      color: Colors.green[200],
                       onPressed: () {
                         Navigator.pushNamed(
                           context,
