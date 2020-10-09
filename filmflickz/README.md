@@ -1,16 +1,19 @@
-# filmflickz
+## Filmflickz 
 
-A new Flutter project.
+It is the fastest and easiest way to find and discover movies and its trailers. It
+enables to find detailed information about any movie along with its ratings and a short
+description about the movie. 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Features:
 
-A few resources to get you started if this is your first Flutter project:
+# ~ Search movies by its name or year.
+# ~ Recommends based on IMDB ratings.
+# ~ Stay up to date with entertainments.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Filmflickz is built using flutter. It will recommend movies in accordance with IMDB
+ratings .You can search the movies by its name. It provides a short description of that
+movie and the duration of the movies. It significantly reduces the user’s search time
+by showing top rated movies right at the exordium. Filmflickz provides user-friendly
+environment for searching movies.
