@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
+import 'details.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatefulWidget {
   @override
@@ -13,7 +16,8 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/':(context)=> Home(),
+        '/': (context) => Home(),
+        '/details': (context) => Details(),
       },
     );
   }
