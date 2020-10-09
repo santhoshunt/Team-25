@@ -17,3 +17,6 @@ ratings .You can search the movies by its name. It provides a short description 
 movie and the duration of the movies. It significantly reduces the user’s search time
 by showing top rated movies right at the exordium. Filmflickz provides user-friendly
 environment for searching movies.
+
+## Screenshot of home page
+![22a37a2d-37e4-45b1-8224-31ee40125746](https://user-images.githubusercontent.com/50547679/95607037-cb69e480-0a78-11eb-9411-1932850240a5.jpg)
