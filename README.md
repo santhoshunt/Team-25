@@ -1,2 +1,2 @@
 # flimflickz
-The project(Flimfliclz) for synsara2020 hackathon
+The project(Flimflickz) for synsara2020 hackathon
