@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'movieCard.dart';
+import 'data.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -47,7 +49,13 @@ class _HomeState extends State<Home> {
             ),
             Container(
               height: 220,
-              child: Text("BEST OF ALL TIME"),
+              child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: Data.url1.length,
+                  itemBuilder: (context, index) {
+                    return MovieCard(
+                        url: Data.url1[index], name: Data.name1[index]);
+                  }),
             ),
             SizedBox(
               height: 10,
@@ -82,7 +90,13 @@ class _HomeState extends State<Home> {
             ),
             Container(
               height:220,
-              child: Text("BEST OF 2019"),
+              child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: Data.url2.length,
+                  itemBuilder: (context, index) {
+                    return MovieCard(
+                        url: Data.url2[index], name: Data.name2[index]);
+                  } 
             ),
             SizedBox(
               height: 10,
@@ -117,7 +131,13 @@ class _HomeState extends State<Home> {
             ),
             Container(
               height: 220,
-              child: Text("BEST OF 2020"),
+              child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: Data.url1.length,
+                  itemBuilder: (context, index) {
+                    return MovieCard(
+                        url: Data.url1[index], name: Data.name1[index]);
+                  }),
             ),
             SizedBox(
               height: 10,
