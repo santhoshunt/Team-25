@@ -55,7 +55,7 @@ class _HomeState extends State<Home> {
                   itemBuilder: (context, index) {
                     return MovieCard(
                         url: Data.url1[index], name: Data.name1[index]);
-                  }),
+                  },),
             ),
             SizedBox(
               height: 10,
@@ -96,7 +96,7 @@ class _HomeState extends State<Home> {
                   itemBuilder: (context, index) {
                     return MovieCard(
                         url: Data.url2[index], name: Data.name2[index]);
-                  } 
+                  },),
             ),
             SizedBox(
               height: 10,
@@ -137,7 +137,7 @@ class _HomeState extends State<Home> {
                   itemBuilder: (context, index) {
                     return MovieCard(
                         url: Data.url1[index], name: Data.name1[index]);
-                  }),
+                  },),
             ),
             SizedBox(
               height: 10,
