@@ -13,27 +13,5 @@ class Data {
   static var url3 = [];
   static var name3 = [];
 
-  static List geturl1() {
-    return url1;
-  }
-
-  static List getname1() {
-    return name1;
-  }
-
-  static List getname2() {
-    return name2;
-  }
-
-  static List getname3() {
-    return name3;
-  }
-
-  static List geturl2() {
-    return url2;
-  }
-
-  static List geturl3() {
-    return url3;
-  }
+  
 }
