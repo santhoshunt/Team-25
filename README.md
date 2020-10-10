@@ -9,7 +9,7 @@ description about the movie.
 
 # Features:
 
-## ~ Watch trailer om just one click
+## ~ Watch trailer on just one click
 ![23c61cff-41ec-47cd-b935-bedd3e45db6e](https://user-images.githubusercontent.com/50547679/95623179-763acc80-0a92-11eb-9ee6-6e03bf239518.jpg)
 
 
