@@ -149,7 +149,6 @@ class Data {
   ];
   static var desc2 = [
     "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing. Two parents do what it takes to keep their children safe in a world full of creatures hunting every sound they can hear.",
-    "The grave course of events set in motion by Thanos, that wiped out half the universe and fractured the Avengers ranks, compels the remaining Avengers to take one final stand in Marvel Studios grand conclusion to twenty-two films.",
     "When a new toy called -Forky joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy. Woody, Buzz Lightyear and the rest of the gang embark on a road trip with Bonnie and a new toy named Forky.",
     "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
     "An old man recalls his time painting houses for his friend, Jimmy Hoffa, through the 1950-70s.",
