@@ -130,22 +130,41 @@ class Data {
     "https://h-m-entertainment.com/wp-content/uploads/2020/01/terminator-dark-fate-2019-poster.jpg"
   ];
   static var name2 = [
-    "A Quiet place",
-    "Toy Story 4",
-    "1917",
-    "The Irishman",
-    "Once Upon a Time\nin Hollywood",
-    "Chernobyl",
-    "Ford v Ferrari",
-    "Joker",
-    "Euphoria",
-    "Big Little Lies",
-    "Parasite",
-    "Apollo 11",
-    "Klaus",
-    "For Sama",
-    "Knives Out",
-    "Terminator: Dark Fate"
+    "A Quiet place",//1
+    "Toy Story 4",//2
+    "1917",//3
+    "The Irishman",//4
+    "Once Upon a Time\nin Hollywood",//5
+    "Chernobyl",//6
+    "Ford v Ferrari",//7
+    "Joker",//8
+    "Euphoria",//9
+    "Big Little Lies",//10
+    "Parasite",//11
+    "Apollo 11",//12
+    "Klaus",//13
+    "For Sama",//14
+    "Knives Out",//15
+    "Terminator: Dark Fate",//16
+  ];
+  static var trailer2 = [
+    //1
+    "https://www.youtube.com/watch?v=WR7cc5t7tv8",//1
+    'https://www.youtube.com/watch?v=wmiIUN-7qhE',//2
+    'https://www.youtube.com/watch?v=gZjQROMAh_s',//3
+    'https://www.youtube.com/watch?v=RS3aHkkfuEI',//4
+    'https://www.youtube.com/watch?v=ELeMaP8EPAA',//5
+    'https://www.youtube.com/watch?v=s9APLXM9Ei8',//6
+    'https://www.youtube.com/watch?v=I3h9Z89U9ZA',//7
+    'https://www.youtube.com/watch?v=zAGVQLHvwOY',//8
+    'https://www.youtube.com/watch?v=ziMUD0_TTg0',//9
+    'https://www.youtube.com/watch?v=8XgMvMpvCFI',//10
+    'https://www.youtube.com/watch?v=isOGD_7hNIY',//11
+    'https://www.youtube.com/watch?v=3Co8Z8BQgWc',//12
+    'https://www.youtube.com/watch?v=taE3PwurhYM',//13
+    'https://www.youtube.com/watch?v=vsvBqtg2RM0',//14
+    'https://www.youtube.com/watch?v=xi-1NchUqMA',//15
+    'https://www.youtube.com/watch?v=oxy8udgWRmo',//16
   ];
   static var desc2 = [
     "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing. Two parents do what it takes to keep their children safe in a world full of creatures hunting every sound they can hear.",
@@ -201,25 +220,7 @@ class Data {
     "2h 10m",
     "2h 8m"
   ];
-  static var trailer2 = [
-    "https://www.youtube.com/watch?v=WR7cc5t7tv8",
-    'https://www.youtube.com/watch?v=wmiIUN-7qhE',
-    'https://www.youtube.com/watch?v=gZjQROMAh_s',
-    'https://www.youtube.com/watch?v=RS3aHkkfuEI',
-    'https://www.youtube.com/watch?v=ELeMaP8EPAA',
-    'https://www.youtube.com/watch?v=ELeMaP8EPAA',
-    'https://www.youtube.com/watch?v=s9APLXM9Ei8',
-    'https://www.youtube.com/watch?v=I3h9Z89U9ZA',
-    'https://www.youtube.com/watch?v=zAGVQLHvwOY',
-    'https://www.youtube.com/watch?v=ziMUD0_TTg0',
-    'https://www.youtube.com/watch?v=8XgMvMpvCFI',
-    'https://www.youtube.com/watch?v=isOGD_7hNIY',
-    'https://www.youtube.com/watch?v=3Co8Z8BQgWc',
-    'https://www.youtube.com/watch?v=taE3PwurhYM',
-    'https://www.youtube.com/watch?v=vsvBqtg2RM0',
-    'https://www.youtube.com/watch?v=aETNYyrqNYE',
-  ];
-
+  
   //details of best of 2020 -> url3,name3,...,desc3
   static var url3 = [
     "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRELEr5bWH1Z9ZlYjofDbRoW0ToFJop6YlcJuVU8lAYt2peph_n",
